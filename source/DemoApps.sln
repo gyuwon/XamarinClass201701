@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncAwait", "AsyncAwait", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpGetApp", "AsyncAwait\HttpGetApp\HttpGetApp.csproj", "{BDACF1E6-BCCF-4410-B7BA-0D382D037550}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQ", "LINQ", "{F3B637F2-7223-4F85-82BA-5AE2B9530030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListWebApp", "LINQ\TodoListWebApp\TodoListWebApp.csproj", "{7C9C6072-157D-4940-9404-F57C4BD31574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{BDACF1E6-BCCF-4410-B7BA-0D382D037550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDACF1E6-BCCF-4410-B7BA-0D382D037550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDACF1E6-BCCF-4410-B7BA-0D382D037550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9C6072-157D-4940-9404-F57C4BD31574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9C6072-157D-4940-9404-F57C4BD31574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9C6072-157D-4940-9404-F57C4BD31574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9C6072-157D-4940-9404-F57C4BD31574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BDACF1E6-BCCF-4410-B7BA-0D382D037550} = {3CFB11A3-FBAF-441A-B4EA-621E8E1D09FE}
+		{7C9C6072-157D-4940-9404-F57C4BD31574} = {F3B637F2-7223-4F85-82BA-5AE2B9530030}
 	EndGlobalSection
 EndGlobal
