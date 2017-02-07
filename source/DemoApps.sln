@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DelegatesAndEvents", "Deleg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEachMethod", "DelegatesAndEvents\ForEachMethod\ForEachMethod.csproj", "{0E53A419-020C-4D3F-BE6F-0C2D8308EA57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableObject", "DelegatesAndEvents\ObservableObject\ObservableObject.csproj", "{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,18 @@ Global
 		{0E53A419-020C-4D3F-BE6F-0C2D8308EA57}.Release|iPhone.Build.0 = Release|Any CPU
 		{0E53A419-020C-4D3F-BE6F-0C2D8308EA57}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{0E53A419-020C-4D3F-BE6F-0C2D8308EA57}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Release|iPhone.Build.0 = Release|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,5 +145,6 @@ Global
 		{9A71ACAA-679A-47C8-A3D1-8657CF2AFE62} = {88C82004-EF18-4070-8023-E51F66A37E68}
 		{D6059148-F8DD-4CFE-AAC5-F714C0272C4B} = {88C82004-EF18-4070-8023-E51F66A37E68}
 		{0E53A419-020C-4D3F-BE6F-0C2D8308EA57} = {84E3BEFA-9ABD-4706-9B70-4EA1E7A5F9C1}
+		{5924E8CA-1A0F-42E6-92F3-F8A9C817AAD4} = {84E3BEFA-9ABD-4706-9B70-4EA1E7A5F9C1}
 	EndGlobalSection
 EndGlobal
