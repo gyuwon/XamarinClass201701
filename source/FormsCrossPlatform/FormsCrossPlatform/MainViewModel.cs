@@ -9,10 +9,12 @@ namespace FormsCrossPlatform
         private string _name;
         private string _email;
         private RelayCommand _addCommand;
-        private ObservableCollection<Contact> _contact;
+        private readonly ObservableCollection<Contact> _contact;
 
         public MainViewModel()
         {
+            _name = string.Empty;
+            _email = string.Empty;
             _contact = new ObservableCollection<Contact>();
         }
 
@@ -52,6 +54,9 @@ namespace FormsCrossPlatform
                 Name = _name,
                 Email = _email
             });
+
+            Name = string.Empty;
+            Email = string.Empty;
         }
 
         private bool CanExecuteAddCommand(object parameter)
