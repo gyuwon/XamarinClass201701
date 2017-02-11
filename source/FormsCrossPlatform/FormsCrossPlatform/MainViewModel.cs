@@ -1,12 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
 using System.Windows.Input;
 
 namespace FormsCrossPlatform
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel : ObservableObject
     {
         private string _name;
         private string _email;
@@ -17,8 +15,6 @@ namespace FormsCrossPlatform
         {
             _contact = new ObservableCollection<Contact>();
         }
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Name
         {
@@ -64,21 +60,11 @@ namespace FormsCrossPlatform
                 && string.IsNullOrWhiteSpace(_email) == false;
         }
 
-        private void Set<T>(
-            ref T field,
-            T value,
-            [CallerMemberName] string propertyName = null)
+        protected override void OnPropertyChanged(string propertyName)
         {
-            if (EqualityComparer<T>.Default.Equals(field, value))
-            {
-                return;
-            }
+            base.OnPropertyChanged(propertyName);
 
-            field = value;
-
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
-            _addCommand.ChangeCanExecute();
+            _addCommand?.ChangeCanExecute();
         }
     }
 }
